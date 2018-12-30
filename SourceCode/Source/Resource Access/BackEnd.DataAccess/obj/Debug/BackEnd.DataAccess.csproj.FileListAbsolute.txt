@@ -1,0 +1,10 @@
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\bin\Debug\BackEnd.DataAccess.dll.config
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\bin\Debug\BackEnd.DataAccess.dll
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\bin\Debug\BackEnd.DataAccess.pdb
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\bin\Debug\BackEnd.BusinessEntities.dll
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\bin\Debug\BackEnd.Lib.dll
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\bin\Debug\BackEnd.BusinessEntities.pdb
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\bin\Debug\BackEnd.Lib.pdb
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\obj\Debug\BackEnd.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\obj\Debug\BackEnd.DataAccess.dll
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Resource Access\BackEnd.DataAccess\obj\Debug\BackEnd.DataAccess.pdb

@@ -1,0 +1,8 @@
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Business Logic\BackEnd.BusinessLogic\bin\Debug\BackEnd.BusinessLogic.dll
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Business Logic\BackEnd.BusinessLogic\bin\Debug\BackEnd.BusinessLogic.pdb
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Business Logic\BackEnd.BusinessLogic\bin\Debug\BackEnd.BusinessEntities.dll
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Business Logic\BackEnd.BusinessLogic\bin\Debug\BackEnd.Lib.dll
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Business Logic\BackEnd.BusinessLogic\bin\Debug\BackEnd.BusinessEntities.pdb
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Business Logic\BackEnd.BusinessLogic\bin\Debug\BackEnd.Lib.pdb
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Business Logic\BackEnd.BusinessLogic\obj\Debug\BackEnd.BusinessLogic.dll
+C:\Users\Waiving\Desktop\作业\VMS\VaccineManagement\Source\Business Logic\BackEnd.BusinessLogic\obj\Debug\BackEnd.BusinessLogic.pdb
