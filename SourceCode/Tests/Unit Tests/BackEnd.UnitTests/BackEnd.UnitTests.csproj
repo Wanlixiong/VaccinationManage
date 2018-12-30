@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43549FEA-0857-4872-A89A-BB5E2E421B34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BackEnd.UnitTests</RootNamespace>
+    <AssemblyName>BackEnd.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>C:\Program Files (x86)\NUnit 2.4.1\bin\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseTests.cs" />
+    <Compile Include="InjectionMessageStorageTests.cs" />
+    <Compile Include="InjectorStorageTests.cs" />
+    <Compile Include="ManagerUserStorageTests.cs" />
+    <Compile Include="ManufacturersStorageTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VaccineStorageTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Source\Business Logic\BackEnd.BusinessEntities\BackEnd.BusinessEntities.csproj">
+      <Project>{625DF4DF-0515-4B05-BA70-0087CF96ED7D}</Project>
+      <Name>BackEnd.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Source\Business Logic\BackEnd.BusinessLogic\BackEnd.BusinessLogic.csproj">
+      <Project>{49A0A7B2-61A6-4122-AC1F-77F847E2139F}</Project>
+      <Name>BackEnd.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Source\Business Logic\BackEnd.Lib\BackEnd.Lib.csproj">
+      <Project>{B8F4816C-52F7-47E6-BF76-F30413FC89AE}</Project>
+      <Name>BackEnd.Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Source\Resource Access\BackEnd.DataAccess\BackEnd.DataAccess.csproj">
+      <Project>{1804A237-3643-4C52-867E-460D9CB247C9}</Project>
+      <Name>BackEnd.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

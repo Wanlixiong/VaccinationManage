@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="F:\Vaccine\VaccineManagement\Tests\Unit Tests\BackEnd.UnitTests\bin\Debug\BackEnd.UnitTests.dll" total="106" failures="0" not-run="0" date="2018-12-30" time="16:23:34">
+  <environment nunit-version="2.4.1.0" clr-version="2.0.50727.8937" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.4.1\bin" machine-name="PC-20181113KCCT" user="Administrator" user-domain="PC-20181113KCCT" />
+  <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
+  <test-suite name="F:\Vaccine\VaccineManagement\Tests\Unit Tests\BackEnd.UnitTests\bin\Debug\BackEnd.UnitTests.dll" success="True" time="2.363" asserts="0">
+    <results>
+      <test-suite name="BackEnd" success="True" time="2.358" asserts="0">
+        <results>
+          <test-suite name="UnitTests" success="True" time="2.356" asserts="0">
+            <results>
+              <test-suite name="InjectionMessageStorageTests" success="True" time="1.772" asserts="0">
+                <results>
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageCreateFailureInjectionMessageArgumentNullException" executed="True" success="True" time="0.804" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageCreateFailureInjectionMessageDoctorArgumentException" executed="True" success="True" time="0.194" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageCreateFailureInjectionMessageDoctorArgumentNullException" executed="True" success="True" time="0.005" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageCreateFailureInjectionMessageSiteArgumentException" executed="True" success="True" time="0.004" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageCreateFailureInjectionMessageSiteArgumentNullException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageCreateFailureInjectorIDArgumentException" executed="True" success="True" time="0.005" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageCreateFailureVaccineIDArgumentException" executed="True" success="True" time="0.005" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageCreateSuccess" executed="True" success="True" time="0.017" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageListFailureInjectionMessageArgumentNullException" executed="True" success="True" time="0.010" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageListSuccess" executed="True" success="True" time="0.090" asserts="126" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageReadFailureInjectionMessageIdArgumentException" executed="True" success="True" time="0.011" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageReadSuccess" executed="True" success="True" time="0.005" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureInjectionMessageArgumentNullException" executed="True" success="True" time="0.004" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureInjectionMessageDoctorArgumentException" executed="True" success="True" time="0.004" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureInjectionMessageDoctorArgumentNullException" executed="True" success="True" time="0.042" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureInjectionMessageIdArgumentException" executed="True" success="True" time="0.008" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureInjectionMessageInjectionMessageIdArgumentException" executed="True" success="True" time="0.005" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureInjectionMessageSiteArgumentException" executed="True" success="True" time="0.006" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureInjectionMessageSiteArgumentNullException" executed="True" success="True" time="0.006" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureInjectorIDArgumentException" executed="True" success="True" time="0.005" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateFailureVaccineIDArgumentException" executed="True" success="True" time="0.036" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateSuccessFive" executed="True" success="True" time="0.035" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateSuccessFour" executed="True" success="True" time="0.005" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateSuccessOne" executed="True" success="True" time="0.008" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateSuccessThree" executed="True" success="True" time="0.005" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectionMessageStorageTests.InjectionMessageUpdateSuccessTwo" executed="True" success="True" time="0.006" asserts="7" />
+                </results>
+              </test-suite>
+              <test-suite name="InjectorStorageTests" success="True" time="0.068" asserts="0">
+                <results>
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorCreateFailureInjectorArgumentNullException" executed="True" success="True" time="0.001" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorCreateFailureInjectorNameArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorCreateFailureInjectorNameArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorCreateSuccess" executed="True" success="True" time="0.002" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorListFailureInjectorArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorListSuccess" executed="True" success="True" time="0.018" asserts="126" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorReadFailureInjectorIdArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorReadSuccess" executed="True" success="True" time="0.002" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateFailureInjectorArgumentNullException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateFailureInjectorIdArgumentException" executed="True" success="True" time="0.005" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateFailureInjectorInjectorIdArgumentException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateFailureInjectorNameArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateFailureInjectorNameArgumentNullException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateSuccessFive" executed="True" success="True" time="0.003" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateSuccessFour" executed="True" success="True" time="0.003" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateSuccessOne" executed="True" success="True" time="0.002" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateSuccessThree" executed="True" success="True" time="0.003" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.InjectorStorageTests.InjectorUpdateSuccessTwo" executed="True" success="True" time="0.003" asserts="7" />
+                </results>
+              </test-suite>
+              <test-suite name="ManagerUserStorageTests" success="True" time="0.062" asserts="0">
+                <results>
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserCreateFailureManagerUserArgumentNullException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserCreateFailureUserNameArgumentException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserCreateFailureUserNameArgumentNullException" executed="True" success="True" time="0.001" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserCreateFailureUserPasswordArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserCreateSuccess" executed="True" success="True" time="0.004" asserts="5" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserListFailureManagerUserArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserListSuccess" executed="True" success="True" time="0.007" asserts="24" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserReadFailureUserIdArgumentException" executed="True" success="True" time="0.004" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserReadSuccess" executed="True" success="True" time="0.002" asserts="5" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserStorageCreateFailureUserPasswordArgumentException" executed="True" success="True" time="0.001" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateFailureManagerUserArgumentNullException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateFailureUserIdArgumentException" executed="True" success="True" time="0.005" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateFailureUserNameArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateFailureUserNameArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateFailureUserPasswordArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateFailureUserPasswordArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateFailureUserUserIdArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateSuccessOne" executed="True" success="True" time="0.002" asserts="5" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateSuccessThree" executed="True" success="True" time="0.002" asserts="5" />
+                  <test-case name="BackEnd.UnitTests.ManagerUserStorageTests.ManagerUserUpdateSuccessTwo" executed="True" success="True" time="0.003" asserts="5" />
+                </results>
+              </test-suite>
+              <test-suite name="ManufacturersStorageTests" success="True" time="0.073" asserts="0">
+                <results>
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersCreateFailureManufacturersArgumentNullException" executed="True" success="True" time="0.001" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersCreateFailureManufacturersNameArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersCreateFailureManufacturersNameArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersCreateFailureManufacturersSiteArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersCreateFailureManufacturersSiteArgumentNullException" executed="True" success="True" time="0.001" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersCreateSuccess" executed="True" success="True" time="0.002" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersListFailureManufacturersArgumentNullException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersListSuccess" executed="True" success="True" time="0.013" asserts="126" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersReadFailureManufacturersIdArgumentException" executed="True" success="True" time="0.004" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersReadSuccess" executed="True" success="True" time="0.002" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateFailureManufacturersArgumentNullException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateFailureManufacturersIdArgumentException" executed="True" success="True" time="0.005" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateFailureManufacturersManufacturersIdArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateFailureManufacturersNameArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateFailureManufacturersNameArgumentNullException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateFailureManufacturersSiteArgumentException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateFailureManufacturersSiteArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateSuccessFive" executed="True" success="True" time="0.005" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateSuccessFour" executed="True" success="True" time="0.004" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateSuccessOne" executed="True" success="True" time="0.003" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateSuccessThree" executed="True" success="True" time="0.002" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.ManufacturersStorageTests.ManufacturersUpdateSuccessTwo" executed="True" success="True" time="0.003" asserts="7" />
+                </results>
+              </test-suite>
+              <test-suite name="VaccineStorageTests" success="True" time="0.333" asserts="0">
+                <results>
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineCreateFailureManufacturersIDArgumentException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineCreateFailureVaccineArgumentNullException" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineCreateFailureVaccineNameArgumentException" executed="True" success="True" time="0.009" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineCreateFailureVaccineNameArgumentNullException" executed="True" success="True" time="0.017" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineCreateSuccess" executed="True" success="True" time="0.036" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineListFailureVaccineArgumentNullException" executed="True" success="True" time="0.012" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineListSuccess" executed="True" success="True" time="0.068" asserts="126" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineReadFailureVaccineIdArgumentException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineReadSuccess" executed="True" success="True" time="0.018" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateFailureManufacturersIdArgumentException" executed="True" success="True" time="0.025" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateFailureVaccineArgumentNullException" executed="True" success="True" time="0.006" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateFailureVaccineIdArgumentException" executed="True" success="True" time="0.020" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateFailureVaccineNameArgumentException" executed="True" success="True" time="0.022" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateFailureVaccineNameArgumentNullException" executed="True" success="True" time="0.057" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateFailureVaccineVaccineIdArgumentException" executed="True" success="True" time="0.003" asserts="0" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateSuccessFive" executed="True" success="True" time="0.005" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateSuccessFour" executed="True" success="True" time="0.003" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateSuccessOne" executed="True" success="True" time="0.004" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateSuccessThree" executed="True" success="True" time="0.003" asserts="7" />
+                  <test-case name="BackEnd.UnitTests.VaccineStorageTests.VaccineUpdateSuccessTwo" executed="True" success="True" time="0.003" asserts="7" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
